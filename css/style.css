@@ -7538,7 +7538,7 @@ header {
         width: 12px;
         background: none; }
   .home-slider.home-slider {
-    z-index: 1;
+    z-index: -1;
     position: relative; }
     .home-slider.home-slider .btn-link {
       color: #fff; }
