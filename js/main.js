@@ -14,7 +14,10 @@
   };
   loader();
 
-	
+  $('nav .dropdown').addClass('show');
+  $('nav .dropdown').find('> a').attr('aria-expanded', true);
+  $('nav .dropdown').find('.dropdown-menu').addClass('show');
+  
 	$('nav .dropdown').click(function(){
 		var $this = $(this);
 		$this.addClass('show');
